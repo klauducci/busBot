@@ -241,10 +241,10 @@ Busch-Livi: """+B_L+""""""
 while(1==1):
     headers = {
     'x-rapidapi-host': "transloc-api-1-2.p.rapidapi.com",
-    'x-rapidapi-key': "e1d0d43aa7mshef7fe9fc6dc33e6p104c68jsn5e17c8f17b56"
+    'x-rapidapi-key': ""
     }
-    auth = tweepy.OAuthHandler("jakcYy14qnlETjz99dcZ6Lg96", "xE4PqSdjX6F8bcUHK113N7RdadjksHBowedCjHCEMEDnhSMNer")
-    auth.set_access_token("1491806704585089024-PyroZKkDdTf8OQpoFbut7pf9JrD3Ac", "MCDyoyWIj1o2o4NZqAtYiB254qm4iz5MJa2bM0TpD2uiM")
+    auth = tweepy.OAuthHandler("", "")
+    auth.set_access_token("", "")
     api = tweepy.API(auth)
 
 
@@ -280,5 +280,4 @@ while(1==1):
         time.sleep(60)
     print('11:45, time to report\n\n\n')
     api.update_status(report())
-    print('all done good jobie yaaaaaaaaaa')
     cnx.close()
